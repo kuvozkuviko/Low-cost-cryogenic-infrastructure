@@ -146,13 +146,13 @@ Time [s], T [K], Current [A], Voltage [V], Power [mW], Resistance [Ohm]
 
 ## Mechanical
 
-`mechanical/copper_puck.step` is the STEP file for the copper puck used to absorb heat on the back side of the thermal load PCB when it is mounted inside the cryostat. Import into FreeCAD, Fusion 360, or any STEP-compatible CAD tool.
+`Thermal Load/CopperPuck-Body.step` is the STEP file for the copper puck used to absorb heat on the back side of the thermal load PCB when it is mounted inside the cryostat. Import into FreeCAD, Fusion 360, or any STEP-compatible CAD tool.
 
 ---
 
 ## SPICE Simulation
 
-`spice/current_source.asc` is the LTspice XVII simulation of the LM4041-N ADJ constant current source. It was used to verify that the output current is independent of the biasing current and to compare the performance of the 120 kΩ and 122.5 kΩ sensing resistor values.
+`Temperature Readout/Simu_SiDiode670.asc` is the LTspice XVII simulation of the LM4041-N ADJ constant current source. It was used to verify that the output current is independent of the biasing current and to compare the performance of the 120 kΩ and 122.5 kΩ sensing resistor values.
 
 Open with LTspice XVII (free, from Analog Devices).
 
@@ -170,8 +170,6 @@ Open with LTspice XVII (free, from Analog Devices).
 | Aluminium enclosure (Hammond) | 25.30 |
 | **Total** | **269.97** |
 
-*Component costs for resistors, capacitors, ICs, and connectors on the PCB itself are included in the Eurocircuits fabrication quote.*
-
 ---
 
 ## Known Issues and Future Work
@@ -186,6 +184,6 @@ Open with LTspice XVII (free, from Analog Devices).
 
 ## Related Files
 
-The full semester project report (`TP4_report.pdf`) is included at the root of this repository and contains the full circuit analysis, component selection rationale, measurement results, and discussion.
+The full semester project report (`TP4_spring_2026.pdf`) is included at the root of this repository and contains the full circuit analysis, component selection rationale, measurement results, and discussion.
 
 ---
